@@ -1,5 +1,7 @@
 # war.gov UFO/UAP Release 01 — Easy Download Pack
 
+This repository does not host the 3.8GB archive itself. It contains the index, guide, manifest, and checksums. The full archive is delivered through FastFileLink.
+
 Full browser-friendly download:
 
 | Language            | Download Link                                                                 | Preview Link                                                                 |
