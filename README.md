@@ -8,6 +8,10 @@ Full browser-friendly download:
 | Traditional Chinese | [https://0.2.fastfilelink.com/wKHHxXms](https://0.2.fastfilelink.com/wKHHxXms)  |
 | Simplified Chinese  | [https://0.2.fastfilelink.com/lM8DQsqR](https://0.2.fastfilelink.com/lM8DQsqR)  |
 
+If you want to see how this archive was collected, packaged, customized, and published using FastFileLink, I wrote up the process here:
+
+[Behind the scenes: publishing this 3.8GB UFO/UAP public archive with FastFileLink](https://fastfilelink.com/static/blog/ufo-uap-release-01.html)
+
 ## Scope
 
 This pack is a convenience download package for the May 2026 war.gov UFO/UAP Release 01.
