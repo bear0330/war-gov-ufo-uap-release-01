@@ -15,6 +15,17 @@ If you want to see how this archive was collected, packaged, customized, and pub
 
 [Behind the scenes: publishing this 3.8GB UFO/UAP public archive with FastFileLink](https://fastfilelink.com/static/blog/ufo-uap-release-01.html)
 
+## Contents
+
+- 158 mirrored downloadable files
+- 116 PDFs
+- 28 MP4 videos
+- 14 images
+- Source URLs preserved
+- SHA-256 checksums included
+- `files_index.csv` and `files_index.jsonl`
+- `START_GUIDE.*.html` for browsing the archive
+
 ## Scope
 
 This pack is a convenience download package for the May 2026 war.gov UFO/UAP Release 01.
@@ -53,3 +64,5 @@ This pack is not affiliated with, sponsored by, approved by, or endorsed by the 
 The appearance of U.S. Department of War / Department of Defense visual information does not imply or constitute DoW/DoD endorsement of FastFileLink, this website, or any product or service.
 
 Files are redistributed as publicly released. No analysis, re-redaction, modification, or claim that the files prove extraterrestrial life is made.
+
+The BSD-2-Clause license applies to the original helper materials in this repository, such as the README, guides, and index packaging. The underlying public records remain subject to their original source terms and U.S. government public-domain rules.
