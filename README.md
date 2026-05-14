@@ -2,11 +2,12 @@
 
 Full browser-friendly download:
 
-| Language            | Download Link                                      |
-|---------------------|----------------------------------------------------|
-| English             | [https://0.2.fastfilelink.com/x5CbXd5k](https://0.2.fastfilelink.com/x5CbXd5k)  |
-| Traditional Chinese | [https://0.2.fastfilelink.com/wKHHxXms](https://0.2.fastfilelink.com/wKHHxXms)  |
-| Simplified Chinese  | [https://0.2.fastfilelink.com/lM8DQsqR](https://0.2.fastfilelink.com/lM8DQsqR)  |
+| Language            | Download Link                                                                 | Preview Link                                                                 |
+|---------------------|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| English             | [https://0.2.fastfilelink.com/x5CbXd5k](https://0.2.fastfilelink.com/x5CbXd5k) | [Preview](https://0.2.fastfilelink.com/x5CbXd5k?preview=true)               |
+| Traditional Chinese | [https://0.2.fastfilelink.com/wKHHxXms](https://0.2.fastfilelink.com/wKHHxXms) | [Preview](https://0.2.fastfilelink.com/wKHHxXms?preview=true)               |
+| Simplified Chinese  | [https://0.2.fastfilelink.com/lM8DQsqR](https://0.2.fastfilelink.com/lM8DQsqR) | [Preview](https://0.2.fastfilelink.com/lM8DQsqR?preview=true)               |
+
 
 If you want to see how this archive was collected, packaged, customized, and published using FastFileLink, I wrote up the process here:
 
