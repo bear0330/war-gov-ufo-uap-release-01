@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>從這裡開始 — 美國戰爭部 UFO/UAP 公開檔案懶人下載包</title>
+  <style>
+    :root{--text:#d7e2f4;--muted:#aebbd1;--white:#fff;--accent:#8fd1ff;--line:rgba(255,255,255,.12)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,"Noto Sans TC","Microsoft JhengHei","PingFang TC","Segoe UI",Arial,sans-serif;color:var(--text);line-height:1.75;background:radial-gradient(circle at 50% 0%,rgba(79,135,255,.18),transparent 38%),radial-gradient(circle at 88% 35%,rgba(27,203,255,.08),transparent 34%),linear-gradient(135deg,#020918 0%,#061a48 45%,#020918 100%)}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1120px;margin:0 auto;padding:22px 22px 56px}
+
+    .hero{padding:22px 26px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.032));box-shadow:0 18px 56px rgba(0,0,0,.22);overflow:hidden;position:relative}
+    .hero:before{content:"";position:absolute;inset:-170px -210px auto auto;width:420px;height:420px;border-radius:999px;border:1px solid rgba(143,209,255,.15);box-shadow:0 0 0 80px rgba(143,209,255,.025),0 0 0 160px rgba(143,209,255,.018);pointer-events:none}
+    .pill{display:inline-block;padding:5px 12px;border:1px solid rgba(143,209,255,.25);border-radius:999px;color:var(--accent);background:rgba(143,209,255,.08);letter-spacing:.08em;font-weight:750;font-size:11px}
+    h1{margin:12px 0 8px;color:var(--white);font-size:clamp(28px,3.9vw,44px);line-height:1.12;letter-spacing:-.035em;max-width:900px}
+    .lead{max-width:860px;margin:0;font-size:16px;color:#dbe7f8}
+    .notice{margin-top:16px;padding:11px 14px;border-left:3px solid var(--accent);border-radius:12px;background:rgba(143,209,255,.08);color:#dce8fb;font-size:14px}
+    .stats{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:10px;margin:16px 0 0}
+    .stat{padding:12px 14px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.042)}
+    .stat b{display:block;color:var(--white);font-size:24px;line-height:1;margin-bottom:6px}
+    .stat span{color:var(--muted);font-size:11px;letter-spacing:.06em}
+
+    .guide-intro{margin-top:22px;padding:24px 28px;border:1px solid rgba(143,209,255,.22);border-radius:24px;background:linear-gradient(180deg,rgba(143,209,255,.09),rgba(255,255,255,.045));box-shadow:0 18px 52px rgba(0,0,0,.18)}
+    .guide-intro h2{font-size:34px;margin-bottom:10px}
+    .guide-intro p{font-size:17px;color:#dbe7f8;max-width:920px}
+
+    .grid{display:grid;grid-template-columns:270px 1fr;gap:24px;margin-top:22px;align-items:start}
+    nav{position:sticky;top:18px;padding:18px;border:1px solid rgba(143,209,255,.20);border-radius:22px;background:rgba(5,13,34,.74);backdrop-filter:blur(10px);box-shadow:0 18px 42px rgba(0,0,0,.18)}
+    nav .nav-title{color:var(--white);font-weight:850;margin-bottom:10px;font-size:18px}
+    nav a{display:block;padding:8px 0;color:#cbd8ec;font-size:14px}
+    nav a:first-of-type{color:#ffffff;font-weight:750}
+
+    main{display:grid;gap:18px}
+    section{padding:26px 28px;border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.055)}
+    h2{margin:0 0 14px;color:var(--white);font-size:28px;line-height:1.25;letter-spacing:-.02em}
+    h3{margin:22px 0 10px;color:#f7fbff;font-size:19px}
+    p{margin:0 0 12px}
+    ul,ol{margin:10px 0 0 22px;padding:0}li{margin:6px 0}
+    code{font-family:"SFMono-Regular",Consolas,monospace;color:#eef7ff;background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:2px 6px}
+    pre{margin:12px 0 0;padding:14px 16px;border-radius:16px;overflow-x:auto;background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);color:#eef7ff;line-height:1.5}
+    table{width:100%;border-collapse:collapse;margin:12px 0 0;overflow:hidden;border-radius:16px;border:1px solid var(--line)}
+    th,td{padding:12px 14px;text-align:left;border-bottom:1px solid rgba(255,255,255,.08);vertical-align:top}
+    th{color:var(--white);background:rgba(255,255,255,.065);font-size:13px;letter-spacing:.06em}
+    tr:last-child td{border-bottom:0}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+    .card{padding:16px;border:1px solid rgba(255,255,255,.10);border-radius:18px;background:rgba(255,255,255,.04)}
+    .card strong{color:var(--white)}
+    .quick{border-color:rgba(143,209,255,.28);background:rgba(143,209,255,.065)}
+    footer{margin-top:24px;padding:22px;border:1px solid rgba(255,255,255,.10);border-radius:22px;background:rgba(0,0,0,.18);color:var(--muted);font-size:14px}
+    @media(max-width:860px){.grid{grid-template-columns:1fr}nav{position:static}.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.hero,section,.guide-intro{padding:22px 20px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <span class="pill">公開檔案懶人包</span>
+      <h1>美國戰爭部 UFO/UAP 公開檔案懶人下載包</h1>
+      <p class="lead">這份壓縮包整理了 2026 年 5 月公開釋出的 158 個檔案，包含 PDF、影片、圖片、索引檔與 checksum。</p>
+      <div class="notice">授權、來源、公有領域說明與非官方背書聲明，請閱讀壓縮包中的 <strong>README.md</strong>。</div>
+      <div class="stats">
+        <div class="stat"><b>158</b><span>鏡像檔案</span></div>
+        <div class="stat"><b>116</b><span>PDF 文件</span></div>
+        <div class="stat"><b>28</b><span>影片</span></div>
+        <div class="stat"><b>14</b><span>圖片</span></div>
+      </div>
+    </header>
+
+    <section class="guide-intro">
+      <span class="pill">從這裡開始</span>
+      <h2>下載後要從哪裡開始看？</h2>
+      <p>這批公開檔案比較像是一個檔案集合，而不是一份有單一敘事線的完整報告。你可以先照下面的快速導覽看影片和圖片，再用檔名群組與索引檔往下查相關 PDF。</p>
+    </section>
+
+    <div class="grid">
+      <nav>
+        <div class="nav-title">導覽</div>
+        <a href="#quick">20 分鐘快速看法</a>
+        <a href="#one-hour">1 小時瀏覽路線</a>
+        <a href="#order">建議觀看順序</a>
+        <a href="#what">這包裡有什麼？</a>
+        <a href="#groups">檔名群組說明</a>
+        <a href="#index">如何使用索引檔</a>
+        <a href="#note">重要提醒</a>
+      </nav>
+
+      <main>
+        <section id="quick" class="quick">
+          <h2>20 分鐘快速看法</h2>
+          <ol>
+            <li>先看 3–5 支 MP4 影片。</li>
+            <li>打開 8 張 FBI <code>A</code> 系列 PNG 圖片。</li>
+            <li>打開 6 張 NASA Apollo JPG 圖片。</li>
+            <li>再看 <code>western_us_event_slides_5.08.2026.pdf</code>、<code>2024-04-30-composite-sketch.pdf</code>、<code>usper-statement-redacted.pdf</code>。</li>
+            <li>如果只是想快速了解，大概看到這裡就可以；想深入再往下看其他 PDF。</li>
+          </ol>
+        </section>
+
+        <section id="one-hour">
+          <h2>1 小時瀏覽路線</h2>
+          <ol>
+            <li>先看完 28 支 MP4 影片。</li>
+            <li>快速瀏覽 14 張圖片。</li>
+            <li>閱讀比較短、比較現代的 <code>DOW-UAP-D...</code> PDF。</li>
+            <li>接著看 FBI 目擊 / 照片相關文件。</li>
+            <li>再瀏覽 NASA / Apollo 相關逐字稿與任務簡報文件。</li>
+            <li>最後再看那些很大的歷史掃描 PDF。</li>
+          </ol>
+        </section>
+
+        <section id="order">
+          <h2>建議觀看順序</h2>
+          <h3>1. 先從影片開始</h3>
+          <p>影片是最容易入門的部分。你可以先找這類檔案：</p>
+          <pre>DOD_111688723.mp4
+DOD_111688762.mp4
+DOD_111688775.mp4
+...
+DOD_111689759.mp4</pre>
+          <p>這些影片通常對應到 <code>DOW-UAP-PR...</code> 這類公開釋出紀錄。建議先看 MP4，再用 <code>files_index.csv</code> 找標題或相關文件。</p>
+
+          <h3>2. 再看圖片</h3>
+          <div class="cards">
+            <div class="card"><strong>FBI 圖片</strong><pre>fbi-photo-a1.png
+...
+fbi-photo-a8.png</pre></div>
+            <div class="card"><strong>NASA Apollo 圖片</strong><pre>nasa-uap-vm1-apollo-12-1969.jpg
+...
+nasa-uap-vm6-apollo-17-1972.jpg</pre></div>
+          </div>
+
+          <h3>3. 接著看比較短的現代 PDF</h3>
+          <p>可以先從這些檔案開始：</p>
+          <pre>dow-uap-d10-mission-report-middle-east-may-2022.pdf
+dow-uap-d12-mission-report-iraq-may-2022.pdf
+dow-uap-d14-mission-report-iraq-may-2022.pdf
+dow-uap-d16-mission-report-syria-july-2022.pdf
+dow-uap-pr20.pdf
+usper-statement-redacted.pdf
+2024-04-30-composite-sketch.pdf
+western_us_event_slides_5.08.2026.pdf</pre>
+
+          <h3>4. 再看 FBI 目擊 / 照片相關材料</h3>
+          <p>建議順序：先打開 <code>fbi-photo-a*.png</code> 圖片，再看 <code>2024-04-30-composite-sketch.pdf</code>，接著看 <code>serial-*</code> 與 <code>usper-statement-*</code> 這些 PDF，最後再瀏覽 <code>fbi-photo-b*.pdf</code>。</p>
+
+          <h3>5. 再看 NASA / Apollo 相關材料</h3>
+          <p>建議先看 <code>nasa-uap-vm*.jpg</code> 圖片，再打開 Apollo 逐字稿 / 任務簡報相關 PDF。</p>
+
+          <h3>6. 大型歷史 PDF 留到最後</h3>
+          <p>有些 PDF 是很大的歷史掃描文件。它們可能有保存價值，但不適合作為一般使用者的第一站。</p>
+          <pre>38_143685_box7_incident_summaries_1-100.pdf
+38_143685_box7_incident_summaries_101-172.pdf
+65_hs1-834228961_62-hq-83894_section_*.pdf
+342_hs1-416511228_box186_319.1-flying-discs-1949.pdf</pre>
+        </section>
+
+        <section id="what">
+          <h2>這包裡有什麼？</h2>
+          <p>這份壓縮包鏡像了 2026 年 5 月 war.gov UFO/UAP 公開檔案中可直接下載的檔案。</p>
+          <table>
+            <thead><tr><th>類型</th><th>數量</th><th>從哪裡開始</th></tr></thead>
+            <tbody>
+              <tr><td>PDF 文件</td><td>116</td><td><code>files/*.pdf</code></td></tr>
+              <tr><td>影片</td><td>28</td><td><code>files/*.mp4</code></td></tr>
+              <tr><td>圖片</td><td>14</td><td><code>files/*.png</code>、<code>files/*.jpg</code></td></tr>
+              <tr><td>索引與校驗檔</td><td>已包含</td><td><code>files_index.csv</code>、<code>files_index.jsonl</code>、<code>checksum.sha256</code>、<code>manifest.json</code></td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="groups">
+          <h2>檔名群組說明</h2>
+          <div class="cards">
+            <div class="card"><strong>DOW-UAP-D...</strong><br>通常是美國戰爭部的 UAP 文件紀錄、任務報告、range fouler report、email 或相關文字資料。</div>
+            <div class="card"><strong>DOW-UAP-PR...</strong><br>通常是公開釋出或媒體相關紀錄。在這份包裡，很多 PR 紀錄對應到影片。</div>
+            <div class="card"><strong>FBI PHOTO...</strong><br>FBI 相關照片與對應 PDF 文件。</div>
+            <div class="card"><strong>NASA-UAP-D...</strong><br>NASA / Apollo / Skylab 的逐字稿或任務簡報文件。</div>
+            <div class="card"><strong>NASA-UAP-VM...</strong><br>NASA 相關視覺影像資料。</div>
+            <div class="card"><strong>dos-uap / 059uap...</strong><br>State Department cable，也就是美國國務院電報類紀錄。</div>
+          </div>
+          <h3>數字開頭的大型 PDF</h3>
+          <p>像 <code>18_</code>、<code>38_</code>、<code>59_</code>、<code>65_</code>、<code>255_</code>、<code>331_</code>、<code>341_</code>、<code>342_</code> 這類數字開頭的 PDF，看起來比較像歷史檔案館藏的編號。它們可能有研究價值，但對一般使用者來說比較不容易入門。</p>
+        </section>
+
+        <section id="index">
+          <h2>如何使用索引檔</h2>
+          <p>最簡單的方式，是用 Excel、Google Sheets、Numbers、LibreOffice 或任何試算表工具打開 <code>files_index.csv</code>。</p>
+          <p>比較有用的欄位包括：<code>filename</code>、<code>media_type</code>、<code>url</code>、<code>source_page</code>、<code>size_bytes</code>、<code>sha256</code>。</p>
+        </section>
+
+        <section id="note">
+          <h2>重要提醒</h2>
+          <p>這份包的用途是方便下載、保存與離線瀏覽。它不分析檔案內容、不替檔案重要性排序，也不主張這些檔案證明外星生命或外星科技存在。</p>
+          <p>如果你想確認來源與檔案完整性，可以使用 <code>files_index.csv</code>、<code>files_index.jsonl</code>、<code>checksum.sha256</code>、<code>manifest.json</code>，並比對原始來源頁面：<a href="https://www.war.gov/UFO/">https://www.war.gov/UFO/</a>。</p>
+        </section>
+
+        <footer>授權、來源、美國政府作品的公有領域說明，以及非官方背書聲明，請參考 <strong>README.md</strong>。</footer>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

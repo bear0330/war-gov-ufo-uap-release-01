@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Start Here — war.gov UFO/UAP Release 01 Easy Download Pack</title>
+  <style>
+    :root{--text:#d7e2f4;--muted:#aebbd1;--white:#fff;--accent:#8fd1ff;--line:rgba(255,255,255,.12)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,"Segoe UI",Arial,sans-serif;color:var(--text);line-height:1.65;background:radial-gradient(circle at 50% 0%,rgba(79,135,255,.18),transparent 38%),radial-gradient(circle at 88% 35%,rgba(27,203,255,.08),transparent 34%),linear-gradient(135deg,#020918 0%,#061a48 45%,#020918 100%)}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1120px;margin:0 auto;padding:22px 22px 56px}
+
+    .hero{padding:22px 26px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.032));box-shadow:0 18px 56px rgba(0,0,0,.22);overflow:hidden;position:relative}
+    .hero:before{content:"";position:absolute;inset:-170px -210px auto auto;width:420px;height:420px;border-radius:999px;border:1px solid rgba(143,209,255,.15);box-shadow:0 0 0 80px rgba(143,209,255,.025),0 0 0 160px rgba(143,209,255,.018);pointer-events:none}
+    .pill{display:inline-block;padding:5px 12px;border:1px solid rgba(143,209,255,.25);border-radius:999px;color:var(--accent);background:rgba(143,209,255,.08);text-transform:uppercase;letter-spacing:.14em;font-weight:750;font-size:11px}
+    h1{margin:12px 0 8px;color:var(--white);font-size:clamp(28px,3.9vw,44px);line-height:1.08;letter-spacing:-.04em;max-width:900px}
+    .lead{max-width:860px;margin:0;font-size:16px;color:#dbe7f8}
+    .notice{margin-top:16px;padding:11px 14px;border-left:3px solid var(--accent);border-radius:12px;background:rgba(143,209,255,.08);color:#dce8fb;font-size:14px}
+    .stats{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:10px;margin:16px 0 0}
+    .stat{padding:12px 14px;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.042)}
+    .stat b{display:block;color:var(--white);font-size:24px;line-height:1;margin-bottom:6px}
+    .stat span{color:var(--muted);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+
+    .guide-intro{margin-top:22px;padding:24px 28px;border:1px solid rgba(143,209,255,.22);border-radius:24px;background:linear-gradient(180deg,rgba(143,209,255,.09),rgba(255,255,255,.045));box-shadow:0 18px 52px rgba(0,0,0,.18)}
+    .guide-intro h2{font-size:34px;margin-bottom:10px}
+    .guide-intro p{font-size:17px;color:#dbe7f8;max-width:920px}
+
+    .grid{display:grid;grid-template-columns:270px 1fr;gap:24px;margin-top:22px;align-items:start}
+    nav{position:sticky;top:18px;padding:18px;border:1px solid rgba(143,209,255,.20);border-radius:22px;background:rgba(5,13,34,.74);backdrop-filter:blur(10px);box-shadow:0 18px 42px rgba(0,0,0,.18)}
+    nav .nav-title{color:var(--white);font-weight:850;margin-bottom:10px;font-size:18px}
+    nav a{display:block;padding:8px 0;color:#cbd8ec;font-size:14px}
+    nav a:first-of-type{color:#ffffff;font-weight:750}
+
+    main{display:grid;gap:18px}
+    section{padding:26px 28px;border:1px solid var(--line);border-radius:24px;background:rgba(255,255,255,.055)}
+    h2{margin:0 0 14px;color:var(--white);font-size:28px;line-height:1.2;letter-spacing:-.025em}
+    h3{margin:22px 0 10px;color:#f7fbff;font-size:19px}
+    p{margin:0 0 12px}
+    ul,ol{margin:10px 0 0 22px;padding:0}li{margin:6px 0}
+    code{font-family:"SFMono-Regular",Consolas,monospace;color:#eef7ff;background:rgba(255,255,255,.075);border:1px solid rgba(255,255,255,.08);border-radius:8px;padding:2px 6px}
+    pre{margin:12px 0 0;padding:14px 16px;border-radius:16px;overflow-x:auto;background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.08);color:#eef7ff;line-height:1.5}
+    table{width:100%;border-collapse:collapse;margin:12px 0 0;overflow:hidden;border-radius:16px;border:1px solid var(--line)}
+    th,td{padding:12px 14px;text-align:left;border-bottom:1px solid rgba(255,255,255,.08);vertical-align:top}
+    th{color:var(--white);background:rgba(255,255,255,.065);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+    tr:last-child td{border-bottom:0}
+    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}
+    .card{padding:16px;border:1px solid rgba(255,255,255,.10);border-radius:18px;background:rgba(255,255,255,.04)}
+    .card strong{color:var(--white)}
+    .quick{border-color:rgba(143,209,255,.28);background:rgba(143,209,255,.065)}
+    footer{margin-top:24px;padding:22px;border:1px solid rgba(255,255,255,.10);border-radius:22px;background:rgba(0,0,0,.18);color:var(--muted);font-size:14px}
+    @media(max-width:860px){.grid{grid-template-columns:1fr}nav{position:static}.stats{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}.hero,section,.guide-intro{padding:22px 20px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <span class="pill">Release 01 Pack</span>
+      <h1>war.gov UFO/UAP Release 01</h1>
+      <p class="lead">158 mirrored files from the May 2026 public release: PDFs, videos, images, index files, and checksums.</p>
+      <div class="notice">For licensing, source attribution, public-domain notes, and non-endorsement disclaimers, please read <strong>README.md</strong>.</div>
+      <div class="stats">
+        <div class="stat"><b>158</b><span>Mirrored files</span></div>
+        <div class="stat"><b>116</b><span>PDFs</span></div>
+        <div class="stat"><b>28</b><span>Videos</span></div>
+        <div class="stat"><b>14</b><span>Images</span></div>
+      </div>
+    </header>
+
+    <section class="guide-intro">
+      <span class="pill">Start Here Guide</span>
+      <h2>How to begin browsing this archive</h2>
+      <p>This release is best understood as a collection of public records, not a single report with one narrative. Start with the quick tour below, then use the filename groups and index to explore deeper.</p>
+    </section>
+
+    <div class="grid">
+      <nav>
+        <div class="nav-title">Guide</div>
+        <a href="#quick">20-minute quick tour</a>
+        <a href="#one-hour">1-hour review path</a>
+        <a href="#order">Recommended order</a>
+        <a href="#what">What is in this pack?</a>
+        <a href="#groups">Filename groups</a>
+        <a href="#index">Using the index</a>
+        <a href="#note">Important note</a>
+      </nav>
+
+      <main>
+        <section id="quick" class="quick">
+          <h2>20-minute quick tour</h2>
+          <ol>
+            <li>Watch 3–5 MP4 videos.</li>
+            <li>Open the 8 FBI <code>A</code> PNG images.</li>
+            <li>Open the 6 NASA Apollo JPG images.</li>
+            <li>Open <code>western_us_event_slides_5.08.2026.pdf</code>, <code>2024-04-30-composite-sketch.pdf</code>, and <code>usper-statement-redacted.pdf</code>.</li>
+            <li>Stop there unless you want to read deeper.</li>
+          </ol>
+        </section>
+
+        <section id="one-hour">
+          <h2>1-hour review path</h2>
+          <ol>
+            <li>Watch all 28 MP4 videos.</li>
+            <li>Browse all 14 images.</li>
+            <li>Read the shorter modern <code>DOW-UAP-D...</code> PDFs.</li>
+            <li>Read the FBI sighting-related PDFs.</li>
+            <li>Skim the NASA transcripts/debriefings.</li>
+            <li>Save the very large historical PDFs for later.</li>
+          </ol>
+        </section>
+
+        <section id="order">
+          <h2>Recommended viewing order</h2>
+          <h3>1. Start with the videos</h3>
+          <p>The videos are the easiest entry point. Look for files like:</p>
+          <pre>DOD_111688723.mp4
+DOD_111688762.mp4
+DOD_111688775.mp4
+...
+DOD_111689759.mp4</pre>
+          <p>These generally correspond to many of the <code>DOW-UAP-PR...</code> records. Watch the MP4 files first, then use <code>files_index.csv</code> to find titles and related documents.</p>
+
+          <h3>2. Then look at the images</h3>
+          <div class="cards">
+            <div class="card"><strong>FBI photo images</strong><pre>fbi-photo-a1.png
+...
+fbi-photo-a8.png</pre></div>
+            <div class="card"><strong>NASA Apollo images</strong><pre>nasa-uap-vm1-apollo-12-1969.jpg
+...
+nasa-uap-vm6-apollo-17-1972.jpg</pre></div>
+          </div>
+
+          <h3>3. Then read short modern PDFs</h3>
+          <p>Good starting points:</p>
+          <pre>dow-uap-d10-mission-report-middle-east-may-2022.pdf
+dow-uap-d12-mission-report-iraq-may-2022.pdf
+dow-uap-d14-mission-report-iraq-may-2022.pdf
+dow-uap-d16-mission-report-syria-july-2022.pdf
+dow-uap-pr20.pdf
+usper-statement-redacted.pdf
+2024-04-30-composite-sketch.pdf
+western_us_event_slides_5.08.2026.pdf</pre>
+
+          <h3>4. Check the FBI sighting / photo group</h3>
+          <p>Suggested order: open the <code>fbi-photo-a*.png</code> images, then <code>2024-04-30-composite-sketch.pdf</code>, then the <code>serial-*</code> and <code>usper-statement-*</code> PDFs, then browse <code>fbi-photo-b*.pdf</code>.</p>
+
+          <h3>5. Check the NASA/Apollo group</h3>
+          <p>Look at the <code>nasa-uap-vm*.jpg</code> images first, then open the Apollo transcript/debriefing PDFs.</p>
+
+          <h3>6. Leave the huge historical PDFs for last</h3>
+          <p>Some PDFs are very large archival documents. They may be useful for deeper review, but they are not the best place for casual users to start.</p>
+          <pre>38_143685_box7_incident_summaries_1-100.pdf
+38_143685_box7_incident_summaries_101-172.pdf
+65_hs1-834228961_62-hq-83894_section_*.pdf
+342_hs1-416511228_box186_319.1-flying-discs-1949.pdf</pre>
+        </section>
+
+        <section id="what">
+          <h2>What is in this pack?</h2>
+          <p>This archive mirrors the directly downloadable files from the May 2026 war.gov UFO/UAP Release 01.</p>
+          <table>
+            <thead><tr><th>Type</th><th>Count</th><th>Where to start</th></tr></thead>
+            <tbody>
+              <tr><td>PDFs</td><td>116</td><td><code>files/*.pdf</code></td></tr>
+              <tr><td>Videos</td><td>28</td><td><code>files/*.mp4</code></td></tr>
+              <tr><td>Images</td><td>14</td><td><code>files/*.png</code>, <code>files/*.jpg</code></td></tr>
+              <tr><td>Indexes / checksums</td><td>included</td><td><code>files_index.csv</code>, <code>files_index.jsonl</code>, <code>checksum.sha256</code>, <code>manifest.json</code></td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="groups">
+          <h2>Filename groups at a glance</h2>
+          <div class="cards">
+            <div class="card"><strong>DOW-UAP-D...</strong><br>Department of War document records, mission reports, range fouler reports, emails, or related written material.</div>
+            <div class="card"><strong>DOW-UAP-PR...</strong><br>Public release / media records. In this pack, many PR records correspond to videos.</div>
+            <div class="card"><strong>FBI PHOTO...</strong><br>FBI-related photo material and related PDFs.</div>
+            <div class="card"><strong>NASA-UAP-D...</strong><br>NASA / Apollo / Skylab transcripts or debriefing documents.</div>
+            <div class="card"><strong>NASA-UAP-VM...</strong><br>NASA visual media images.</div>
+            <div class="card"><strong>dos-uap / 059uap...</strong><br>State Department cable records.</div>
+          </div>
+          <h3>Large number-prefixed PDFs</h3>
+          <p>Files beginning with numbers such as <code>18_</code>, <code>38_</code>, <code>59_</code>, <code>65_</code>, <code>255_</code>, <code>331_</code>, <code>341_</code>, and <code>342_</code> look like historical archival record identifiers. They are useful, but less beginner-friendly.</p>
+        </section>
+
+        <section id="index">
+          <h2>Using the index</h2>
+          <p>The easiest way to navigate is to open <code>files_index.csv</code> in Excel, Google Sheets, Numbers, LibreOffice, or any spreadsheet viewer.</p>
+          <p>Useful columns include: <code>filename</code>, <code>media_type</code>, <code>url</code>, <code>source_page</code>, <code>size_bytes</code>, and <code>sha256</code>.</p>
+        </section>
+
+        <section id="note">
+          <h2>Important note</h2>
+          <p>This pack is meant for convenience, archiving, and offline review. It does not analyze the files, does not rank their importance, and does not claim the files prove extraterrestrial life or alien technology.</p>
+          <p>For source verification, use <code>files_index.csv</code>, <code>files_index.jsonl</code>, <code>checksum.sha256</code>, <code>manifest.json</code>, and the original source page: <a href="https://www.war.gov/UFO/">https://www.war.gov/UFO/</a>.</p>
+        </section>
+
+        <footer>For licensing, source attribution, U.S. government public-domain notes, and non-endorsement disclaimers, see <strong>README.md</strong>.</footer>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
