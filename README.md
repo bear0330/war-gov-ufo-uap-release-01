@@ -1,6 +1,6 @@
 # war.gov UFO/UAP Release 01 — Easy Download Pack
 
-This repository does not host the 3.8GB archive itself. It contains the index, guide, manifest, and checksums. The full archive is delivered through FastFileLink.
+This repository does not host the 3.8GB archive itself. It contains the index, guide, manifest, and checksums. The full archive is delivered through [FastFileLink](https://fastfilelink.com/).
 
 Full browser-friendly download:
 
@@ -11,7 +11,7 @@ Full browser-friendly download:
 | Simplified Chinese  | [https://0.2.fastfilelink.com/lM8DQsqR](https://0.2.fastfilelink.com/lM8DQsqR) | [Preview](https://0.2.fastfilelink.com/lM8DQsqR?preview=true)               |
 
 
-If you want to see how this archive was collected, packaged, customized, and published using FastFileLink, I wrote up the process here:
+If you want to see how this archive was collected, packaged, customized, and published using [FastFileLink](https://fastfilelink.com/), I wrote up the process here:
 
 [Behind the scenes: publishing this 3.8GB UFO/UAP public archive with FastFileLink](https://fastfilelink.com/static/blog/ufo-uap-release-01.html)
 
@@ -45,7 +45,7 @@ It is not a complete NARA UAP bulk archive and does not include unrelated histor
 
 ## Note
 
-This download pack was assembled and delivered using **FastFileLink**, to make the public war.gov Release 01 files easier for normal users to download.
+This download pack was assembled and delivered using **[FastFileLink](https://fastfilelink.com/)**, to make the public war.gov Release 01 files easier for normal users to download.
 
 We hope this saves you time: no Git, no Git LFS, and no need to click dozens of official files one by one.
 
