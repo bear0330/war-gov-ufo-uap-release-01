@@ -1,6 +1,9 @@
 # war.gov UFO/UAP Release 01 — Easy Download Pack
 
-Generated at: 2026-05-11T03:44:53+00:00
+Full browser-friendly download:
+English: https://0.2.fastfilelink.com/x5CbXd5k
+Traditional Chinese: https://0.2.fastfilelink.com/wKHHxXms
+Simplified Chinese: https://0.2.fastfilelink.com/lM8DQsqR
 
 ## Scope
 
