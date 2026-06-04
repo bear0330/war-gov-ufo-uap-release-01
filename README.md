@@ -2,6 +2,26 @@
 
 This repository does not host the 3.8GB archive itself. It contains the index, guide, manifest, and checksums. The full archive is delivered through [FastFileLink](https://fastfilelink.com/).
 
+> Update: after this community archive was prepared, war.gov added official bundle downloads for both Release 01 and Release 02.  
+> For most users, the official bundles are now the best place to start.
+
+Official war.gov download page:
+
+- [war.gov UFO/UAP release page](https://www.war.gov/UFO/)
+- [Release 01 Documents `[1.2gb]`](https://www.war.gov/medialink/ufo/bundle/Release_1.zip), [Release 01 Videos `[1.3gb]`](https://d34w7g4gy10iej.cloudfront.net/uapvideos.zip)
+- [Release 02 Documents `[70.1mb]`](https://www.war.gov/medialink/ufo/052226/release_02/release_02_document_bundle.zip), [Release 02 Videos `[5.6gb]`](https://d34w7g4gy10iej.cloudfront.net/uap052226.zip)
+
+This repository is kept as a record of the Release 01 indexing / packaging work. It contains the file index, guide, manifest, checksums, and notes from the original community packaging process.
+
+The original FastFileLink download pages are no longer presented as the primary download path, because the official war.gov bundles are now available. You can still view the FastFileLink preview pages below as examples of how the archive was originally packaged into a browser-friendly download experience:
+
+## Original packaging demo
+Download Page:
+<img width="1052" height="910" alt="圖片" src="https://github.com/user-attachments/assets/746d1271-caf4-40dc-b14f-49e527be9174" />
+
+Preview:
+<img width="1524" height="889" alt="圖片" src="https://github.com/user-attachments/assets/67030b62-895b-4249-9858-ca103ee2f823" />
+
 Full browser-friendly download:
 
 | Language            | Download Link                                                                 | Preview Link                                                                 |
@@ -14,6 +34,13 @@ Full browser-friendly download:
 If you want to see how this archive was collected, packaged, customized, and published using [FastFileLink](https://fastfilelink.com/), I wrote up the process here:
 
 [Behind the scenes: publishing this 3.8GB UFO/UAP public archive with FastFileLink](https://fastfilelink.com/static/blog/ufo-uap-release-01.html)
+
+Why keep this repo?
+
+- It preserves the original Release 01 file index we built from individually downloadable public records.
+- It includes SHA-256 checksums and source URLs.
+- It documents one way to package a large public archive into a browser-friendly delivery page.
+- It may be useful for comparing individual files against the official bundles later.
 
 ## Contents
 
